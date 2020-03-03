@@ -23,13 +23,26 @@
 
 #------------------ @start:zaid------------------------------
 
-
-
-
-
-
-
-
+import random
+print("This program is creating a random number from 0 to 9, have a moment to think...\n")
+t=4
+for i in range(1):
+  rnd=random.randint(0,9)
+  l=int(input(f"you have {t} attempts left, inser your geuss here:  "))
+  while t>0:
+    if l==rnd :
+      print('very good guess is correct 👍🏻')
+      break
+    
+    else:
+      t-=1
+      if t==0:
+        print("sorry you have consumed all your attempts, goodluck next time🌹")
+        break
+      else:
+        l=int(input(f"you have {t} attempts left, inser your geuss here:  "))
+    
+  
 #-------------------- @end:zaid------------------------------
 
 
