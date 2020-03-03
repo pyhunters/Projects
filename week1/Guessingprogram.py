@@ -240,14 +240,14 @@ while guess < 10:
 #-------------------- @end:العنود------------------------------
 
 #------------------ @start:أحمد------------------------------
-
-
-
-
-
-
-
-
-
-
+from random import randint
+for _ in range (100):
+    value=randint(0,100)
+player=int(input("plz enter your guess in integer : "))
+if player < value :
+    print("your number is less than the value ")
+elif player > value :
+    print("your number is greater than the value ")
+else:
+    print("Congratulations, you won ")
 #-------------------- @end:أحمد------------------------------
