@@ -88,7 +88,19 @@ while n>0:
 
 
 #------------------ @start:عبدالرحمن------------------------------
+A = input ('Enter the name of your fruit :')
 
+if A == 'red':
+    print ('The answer is wrong Red :')
+    
+elif A == 'white':
+    print ('Not the right color :')
+    
+elif A == 'Orange':
+    print ('The answer is wrong :')
+
+else :
+    print ('Try again :')
 
 
 
