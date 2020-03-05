@@ -29,13 +29,25 @@
 
 #------------------ @start:zaid------------------------------
 
+print("What is the color of the strawberry?")
+print("""
+please choose the number that represents the correct choice among the following answers:
+  
+  1. red
+  2. orange
+  3. yellow
+  4. blue
+  5. green
 
-
-
-
-
-
-
+""")
+n=int(input("insert your choice here:  "))
+while n>0:
+  if n==1:
+    print("great, your answer is correct")
+    break
+  else:
+    n=int(input("wrong answer, please try again:  "))
+ 
 #-------------------- @end:zaid------------------------------
 
 
